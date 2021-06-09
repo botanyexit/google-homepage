@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Google</title>
+<style> 
+    body {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #222;
+    background-color: #fff;
+    min-width: 400px;
+    display: block;
+    }
+/*This centers the Google logo on the page */
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+/* This makes the search box with rounded edges and centered */
+    .search {
+    width: 426px;
+    height: 34px;
+    border-radius: 10px;
+    border: 1px #cccaca solid;
+    padding: 5px 8px 0px 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#fff;
+    }
+
+    .search:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    }
+
+/* These are for the two search buttons */
+    .submit {
+    width: 187px;
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 10px;
+    }
+
+    .submit:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+    }
+
+</style>
+</head>
+<!--This is the start of the page-->
+<body>
+<!--This is the Google logo. Class is set to "center" and the centering is done in the stylesheet-->
+    <img class="center" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92"  width="272"data-atf="1">
+<br />
+<br />
+<!--This is the search box-->
+<form>
+    <div>
+       <input type="search" name="search" class="search" />
+    </div>
+  <br />
+  <br />  
+<!--These are the search buttons-->    
+    <div align="center">
+       <input type="submit" name="submit" class="submit" value="Google Search" />
+       <input type="submit" name="submit" class="submit" value=" I'm Feeling Lucky" />
+    </div>
+</form>
+</body>
+</html>
